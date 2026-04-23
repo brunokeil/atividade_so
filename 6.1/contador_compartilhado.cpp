@@ -5,6 +5,9 @@
 
 using namespace std;
 
+// g++ contador_compartilhado.cpp -o contador -pthread
+// ./contador;
+
 const int NUM_THREADS = 10;
 const int NUM_ITERATIONS = 100000;
 
